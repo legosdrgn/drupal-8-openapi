@@ -1,0 +1,15 @@
+openapi.json:
+  path: '/openapi'
+  defaults:
+    _controller: '\Drupal\openapi\Controller\OpenAPIPageController::json'
+  options:
+    _theme: ajax_base_page
+  requirements:
+    _permission: 'access openapi documentation'
+
+openapi.form:
+  path: '/admin/config/services/openapi'
+  defaults:
+    _form: '\Drupal\openapi\Form\OpenAPIForm'
+  requirements:
+    _permission: 'administer openapi documentation'

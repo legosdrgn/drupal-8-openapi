@@ -1,0 +1,5 @@
+openapi.form:
+  title: OpenAPI
+  description: 'Configure OpenAPI documentation settings.'
+  parent: system.admin_config_services
+  route_name: openapi.form

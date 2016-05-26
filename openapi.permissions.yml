@@ -1,0 +1,8 @@
+administer openapi documentation:
+  title: 'Administer OpenAPI documentation'
+  description: 'Configure settings for OpenAPI documentation.'
+  restrict access: TRUE
+
+access openapi documentation:
+  title: 'Access OpenAPI documentation'
+  description: 'View OpenAPI documentation.'

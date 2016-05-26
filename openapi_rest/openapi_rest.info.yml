@@ -1,0 +1,8 @@
+name: OpenAPI Documentation - Rest
+type: module
+description: 'Automatically generate web service documentation for REST resources.'
+package: Web services
+core: 8.x
+dependencies:
+  - openapi
+  - rest

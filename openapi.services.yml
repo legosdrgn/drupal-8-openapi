@@ -1,0 +1,7 @@
+services:
+  plugin.manager.openapi:
+    class: Drupal\openapi\Plugin\Type\ResourceDocumentationPluginManager
+    arguments: ['@container.namespaces', '@cache.discovery', '@module_handler']
+  logger.channel.openapi:
+    parent: logger.channel_base
+    arguments: ['openapi']

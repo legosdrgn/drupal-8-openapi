@@ -1,0 +1,5 @@
+name: OpenAPI Documentation
+type: module
+description: 'Automatically generate web service documentation compatible with the OpenAPI Specification.'
+package: Web services
+core: 8.x
